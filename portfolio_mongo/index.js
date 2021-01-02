@@ -14,12 +14,26 @@ MongoClient.connect(URL, config, function (error,MyMongoClient ) {
         var myCollection = myDatabase.collection('user');
 
         //for inserting one data
-        // tools.InsertSingleData(MyMongoClient);
+        // tools.InsertSingleData(MyMongoClient,myDatabase,myCollection);
+
+
         //for inserting multiple data
         // tools.InsertMultipleData(MyMongoClient,myDatabase,myCollection);
-        //for deleting single data
-        tools.DeleteSingleData(MyMongoClient,myDatabase,myCollection);
 
+
+        //for deleting single data
+        // tools.DeleteSingleData(MyMongoClient,myDatabase,myCollection);
+
+
+        //for fetching all data
+        // tools.FindData(MyMongoClient,myDatabase,myCollection);
+
+
+        //fetch selected data
+        // tools.FindDatabyProjection(MyMongoClient,myDatabase,myCollection);
+
+        //update data
+        tools.UpdateData(MyMongoClient,myDatabase,myCollection);
     }
 
 

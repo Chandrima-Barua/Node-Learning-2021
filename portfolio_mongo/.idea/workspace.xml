@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef22aeb-078d-4ec6-b8b6-6477849c9694" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Crud.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/Crud.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,8 @@
       <workItem from="1606550314110" duration="3757000" />
       <workItem from="1606803017106" duration="2039000" />
       <workItem from="1609482444714" duration="2010000" />
-      <workItem from="1609485732328" duration="4224000" />
+      <workItem from="1609485732328" duration="5696000" />
+      <workItem from="1609563187297" duration="3095000" />
     </task>
     <servers />
   </component>
@@ -62,5 +63,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
